@@ -1,6 +1,9 @@
+import { ServerAPI } from "./serverModule";
+
 class Main {
   constructor() {
-    console.log("Hello Node.js x TypeScript from Class");
+    const serverAPI = new ServerAPI();
+    serverAPI.initServer();
   }
 }
 
