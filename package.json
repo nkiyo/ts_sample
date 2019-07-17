@@ -11,6 +11,7 @@
   "license": "ISC",
   "scripts": {
     "build": "tsc",
+    "start": "node app.js",
     "watch": "tsc --watch"
   },
   "devDependencies": {
